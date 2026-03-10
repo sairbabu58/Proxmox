@@ -41,3 +41,8 @@ https://syncbricks.com/how-to-upgrade-proxmox-virtual-environment-to-version-8-3
 https://syncbricks.com/proxmox-ve-8-to-9-upgrade-guide-debian-bookworm-to-trixie/
 ```
 
+**Multiple Nodes Proxmox Update**
+```
+-> Update the Ceph storge
+-> Update all the nodes one by one 
+```
