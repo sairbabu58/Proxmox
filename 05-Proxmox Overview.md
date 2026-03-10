@@ -1,0 +1,21 @@
+**Proxmox Web UI Overview**
+
+**Host Specific Configuration**
+
+```
+-> Summary
+-> Notes
+-> Shell
+-> System
+    - Start/Stop and the services like sshd,chrony
+    - Network
+    - Certificate
+    - DNS
+    - Hosts
+    - Options
+    - Time
+    - Syslog
+-> Updates (Repo enable/disable cluster update)
+->
+
+```
