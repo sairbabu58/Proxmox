@@ -16,6 +16,19 @@
     - Time
     - Syslog
 -> Updates (Repo enable/disable cluster update)
-->
-
+-> Firewall
+-> Disks
+    - LVM
+    - LVM think
+    - Directory
+    - ZFS
+-> Ceph
+    - Configure
+    - Monitor
+    - OSD
+    - Ceph FS
+    - Pools
+-> Replication
+-> Task History
+-> Subscription
 ```
