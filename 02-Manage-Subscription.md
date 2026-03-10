@@ -32,5 +32,12 @@ https://syncbricks.com/how-to-disable-the-proxmox-subscription-nag-warning/
 
 **Upgrade Proxmox from 8.X to 9.X***
 
-follow the docs
+```
+-> Upgrade to 8.3
+https://syncbricks.com/how-to-upgrade-proxmox-virtual-environment-to-version-8-3/
+
+
+-> Upgrade to 9.X
+https://syncbricks.com/proxmox-ve-8-to-9-upgrade-guide-debian-bookworm-to-trixie/
+```
 
