@@ -32,3 +32,35 @@
 -> Task History
 -> Subscription
 ```
+**Data Center Specific Configuration**
+
+```
+-> Search
+-> Summary
+-> Notes
+-> Cluster
+    - Create Cluster
+    - join the Cluster
+-> Ceph
+-> Options
+-> Storage
+    - Add external storage NFS, Ceph,
+    - Add directory
+-> Backup
+-> Replicas
+-> Permission
+    - users
+    - groups
+    - roles
+    - pool
+    - realme (ldap,ad)
+-> HA
+-> SDN
+-> ACME 
+-> Firewall
+-> Metric Server
+-> Resource Mappings
+-> Notification
+-> Support
+
+```
