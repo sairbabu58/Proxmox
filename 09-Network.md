@@ -1,11 +1,11 @@
-## Network Configuration
+# Network Configuration
 
 ```
 - Network IP configuration for proxmox host
 - DNS configuration
 ```
 
-# Basic Network setup
+## Basic Network setup
 ```
 - Proxmox WebUI
     > Host-01
@@ -17,7 +17,7 @@
 - Apply Configuration
 ```
 
-# Additional options to create Network
+## Additional options to create Network
 ```
 - Proxmox WebUI
     > Host-01
@@ -29,7 +29,7 @@
                     - Linux VLAN
 ```
 
-# Create new Linux bridge vmbr-2
+## Create new Linux bridge vmbr-2
 ```
 - Proxmox WebUI
     > Host-01
@@ -42,7 +42,7 @@
 - Apply Configuration
 ```
 
-# Use new create Linux-Bridge network between the VMs
+## Use new create Linux-Bridge network between the VMs
 
 
 ```
