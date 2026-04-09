@@ -42,7 +42,7 @@
 - Apply Configuration
 ```
 
-## Use new create Linux-Bridge network between the VMs
+## Use new created Linux-Bridge network between the VMs
 
 
 ```
