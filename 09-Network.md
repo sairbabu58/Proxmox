@@ -61,3 +61,19 @@
 
 > test the connection between 2 vms 
 ```
+
+## Add additional physical nic and connect to above linux-bridge vmbr-2
+
+```
+- Proxmox WebUI
+    > Host-01
+        > System
+            > Network
+                > Create
+                    - Linux Bridge
+                      Name: vmbr2
+                      IPAddress: [you can also add the new range of ip address]
+                      bridge Ports: [New NIC port name]
+
+- Apply Configuration
+```
