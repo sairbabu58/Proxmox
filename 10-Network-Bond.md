@@ -1,10 +1,10 @@
 # Bond Network Configuration
-
+```
 > Required 2 physical NIC on the server
 > Managed Switch
 > Configure the bond0
 > Add bondo to Linux Bridge - vmbr0 or vmbr1
-
+```
 
 ```
 -> Proxmox WebUI
