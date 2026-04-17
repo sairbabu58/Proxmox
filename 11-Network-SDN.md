@@ -105,7 +105,8 @@ Note: The status looks new, How to apply it
 
 ```
 > Proxmox webui
-> VM/COntainer
+> VM/Container
+> Hardware
 > Network
 > Bridge: [VNet name]
 ```
