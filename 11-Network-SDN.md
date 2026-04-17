@@ -117,4 +117,5 @@ Note: The status looks new, How to apply it
 > DataCenter
 > SDN
 > IPAM
+  > [EDIT] - Option to chnage the IP and static Mapping 
 ```
