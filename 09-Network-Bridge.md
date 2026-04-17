@@ -5,7 +5,7 @@
 - DNS configuration
 ```
 
-## Basic Network setup
+### Basic Network setup
 ```
 - Proxmox WebUI
     > Host-01
@@ -17,7 +17,7 @@
 - Apply Configuration
 ```
 
-## Additional options to create Network
+### Additional options to create Network
 ```
 - Proxmox WebUI
     > Host-01
@@ -29,7 +29,7 @@
                     - Linux VLAN
 ```
 
-## Create new Linux bridge vmbr-2
+### Create new Linux bridge vmbr-2
 ```
 - Proxmox WebUI
     > Host-01
@@ -42,7 +42,7 @@
 - Apply Configuration
 ```
 
-## Use new created Linux-Bridge network between the VMs
+### Use new created Linux-Bridge network between the VMs
 
 
 ```
@@ -62,7 +62,7 @@
 > test the connection between 2 vms 
 ```
 
-## Add additional physical nic and connect to above linux-bridge vmbr-2
+### Add additional physical nic and connect to above linux-bridge vmbr-2
 
 ```
 - Proxmox WebUI
