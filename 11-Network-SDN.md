@@ -25,3 +25,14 @@ $ systemctl enable frr.service
 ```
 
 
+### SDN Configuration
+
+```
+> Proxmox web console
+> DataCenter
+> SDN
+> Zones  [Smiple | VLAN | QinQ | VXLAN | EVPN]
+
+
+```
+
