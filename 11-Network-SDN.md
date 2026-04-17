@@ -75,7 +75,7 @@ $ systemctl enable frr.service
     > DNS Zone Prefix: [nothing]
 
 ##DHCP Configuration
-    > DHCP Rnges
+    > DHCP Range
     > Add
     > Start Addr: 10.10.10.100
     > End Addr: 10.10.10.200
@@ -92,6 +92,25 @@ Note: The status looks new, How to apply it
 ```
 
 #### Validation
+
+```
+> Proxmox web console
+> DataCenter
+> SDN
+> IPAM
+```
+
+
+#### Assign new Ip to VM/Container
+
+```
+> Proxmox webui
+> VM/COntainer
+> Network
+> Bridge: [VNet name]
+```
+
+#### Validation and get the VM new IP Address
 
 ```
 > Proxmox web console
