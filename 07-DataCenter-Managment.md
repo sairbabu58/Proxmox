@@ -1,4 +1,4 @@
-## PDM Proxmox Datacenter Managment
+# PDM Proxmox Datacenter Managment
 
 This is a single Web-UI interface to manage multiple PVE. like vSphere
 
@@ -7,7 +7,7 @@ This is a single Web-UI interface to manage multiple PVE. like vSphere
 -> Install the proxmox Datacenter Managment
 -> Add proxmox Hosts/PVE
 ```
-## How to add proxmox hosts
+### How to add proxmox hosts
 
 ```
 -> login to PDM
