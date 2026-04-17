@@ -31,7 +31,12 @@ $ systemctl enable frr.service
 > Proxmox web console
 > DataCenter
 > SDN
-> Zones  [Smiple | VLAN | QinQ | VXLAN | EVPN]
+> Zones [Simple] - [Simple | VLAN | QinQ | VXLAN | EVPN]
+  > ID : internal-zone
+  > MTU: auto
+  > Nodes: all
+  > IPAM: pve 
+  ave> DNS Server: [your dns server to resolve name, else ]
 
 
 ```
