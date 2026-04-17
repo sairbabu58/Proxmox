@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 # Install and configure Proxmox SDN
 
 ### Preparation and validation 
