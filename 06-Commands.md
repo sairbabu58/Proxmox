@@ -24,5 +24,7 @@ $ pct enter <container-id> (login to the container)
 $ lsblk
 $ df -h
 
+$ pvecm status
+$ pvecm nodes
 
 ```
