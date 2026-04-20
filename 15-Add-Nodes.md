@@ -24,3 +24,21 @@
 > Paste the details.
 > Create 
 ```
+
+### Add nodes in future
+
+```
+> loginto Proxmox cluster node
+> Datacenter
+> Cluster
+> Join Token
+> Copy the token
+
+> Login to new node over browser
+> Datacenter
+> Cluster
+> Join cluster
+> Paste
+> ok
+
+```
