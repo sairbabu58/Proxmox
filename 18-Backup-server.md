@@ -7,6 +7,7 @@
 > One Physical Server
 > SSD-01 30 Gib for OS
 > SSD-02 500/1TiB for backup storage
+> [Optional] SSD-03 500/1TiB for backup storage with RAID configuration using [ssd-02 and ssd-03]
 ```
 
 ### Installation
@@ -35,4 +36,32 @@
 
 $ apt-get update
 $ apt-get dist-upgrade 
+```
+
+
+
+### Configure Backup Server
+
+```
+> Backup server web console
+> Storage/Disks
+> ZFS
+  Name: backup-data
+  RAID Level: Single [if you have multiple disk, please choose other option]
+  [tik] the disk
+> create
+
+Note: Directory is for storing ISO images or any kind of template
+```
+
+### Validation
+
+```
+> Backup server web console
+> Storage/Disks
+> ZFS
+See the status
+
+> Datastore
+See the [backup-data]
 ```
