@@ -63,5 +63,5 @@ Note: Directory is for storing ISO images or any kind of template
 See the status
 
 > Datastore
-See the [backup-data]
+See more details over here [backup-data]
 ```
