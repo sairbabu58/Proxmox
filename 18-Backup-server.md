@@ -64,4 +64,8 @@ See the status
 
 > Datastore
 See more details over here [backup-data]
+  - backup count
+  - CT
+  - Host
+  - Vm
 ```
