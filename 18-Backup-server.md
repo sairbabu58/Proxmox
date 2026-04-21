@@ -64,8 +64,27 @@ See the status
 
 > Datastore
 See more details over here [backup-data]
+  > Summury 
   - backup count
   - CT
   - Host
   - Vm
+```
+
+### Add Permission to get access this Backup server from proxmox 
+
+
+```
+> Backup server web console
+> Datastore
+> Backup-data
+  > Permission
+  > Add
+  > User Permission
+    Path: /datastorage/backup-data
+    User: backup-admin [better to create the user and assign here] 
+    Role: Datastore admin or Backup admin
+> Add
+
+Note: also possible to add multiple permission to same user
 ```
