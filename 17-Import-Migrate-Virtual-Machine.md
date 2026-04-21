@@ -29,7 +29,7 @@ $ qm importovf 301 demo_vmware.ovf local-lvm --format raw
 > memory: 2024
 ```
 
-## Importing Existing Virtual Disk to create a vm on proxmox 
+### Importing Existing Virtual Disk to create a vm on proxmox 
 
 ```
 > Extract the OVA template or get the VMDK file
@@ -44,4 +44,36 @@ $ qm importovf 301 demo_vmware.ovf local-lvm --format raw
 > cd  /var/lib/vz/path for that file
 > qm importovf 302(your existing vm id) demo_vmware.demo.vmdk local-lvm --format raw
 > Change the [boot order] to [DISK] from [Option]
+```
+
+
+### Migrage Vm from Vmware to proxmox
+
+```
+> Storage
+> Add Stoarge
+> ESXI
+> Fill the details
+> Ok
+
+> Storage
+> Find the vmware storage
+> Click it
+> Import
+> validate the details and click import
+```
+
+
+### WebUi Import ova file and create the VM
+
+```
+> Get the OVA file
+> Proxmox console
+> Go down and select the storage [Not Storage Tab]
+> Import
+> Upload or Download[from url]
+> Upload
+> Import
+> Fill the basic details like, storage, cpu, memory. etc 
+> Import
 ```
