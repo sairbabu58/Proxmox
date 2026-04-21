@@ -28,3 +28,20 @@ $ qm importovf 301 demo_vmware.ovf local-lvm --format raw
 > cpu: 1
 > memory: 2024
 ```
+
+## Importing Existing Virtual Disk to create a vm on proxmox 
+
+```
+> Extract the OVA template or get the VMDK file
+> Create a vm on PVE
+> Go with all default setting and create a VM
+> Noe selete the Vm and change the storage setting
+> Hardware
+> Remove the old Disk - Deteach - Remove
+
+> Now do it using shell command
+
+> cd  /var/lib/vz/path for that file
+> qm importovf 302(your existing vm id) demo_vmware.demo.vmdk local-lvm --format raw
+> Change the [boot order] to [DISK] from [Option]
+```
