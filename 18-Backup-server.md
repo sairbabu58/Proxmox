@@ -88,3 +88,36 @@ See more details over here [backup-data]
 
 Note: also possible to add multiple permission to same user
 ```
+
+
+### Take the Backup from Proxmox
+
+```
+> Proxmox WebUI
+> Datacenter
+> Backup
+> Add
+General:
+  Node: all
+  Storage: [Choose the backup storage]
+  Sehedule: when its going to execute
+
+Notification:
+  Global notofication
+  Email id to send
+    - Always
+    - On Failure only
+
+Retention:
+  Keep all backups
+  Keep Last
+  Keep Daily
+  Keep monthly
+  Keep Hourly
+  Keep Weekly
+  Keep yearly
+
+
+ > Run now 
+  
+```
