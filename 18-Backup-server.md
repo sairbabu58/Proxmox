@@ -126,13 +126,13 @@ Retention:
 ### Restore the Vm
 
 ```
-> Proxmox webui
+> Proxmox webui [This process will restore to new VM ]
 > Backup server storage path [down of the same page]
 > Backup [other options- Summury, Permission]
 > Restore
 > Choose the Vm
 
-Else
+Else [This will restore to same VM]
 
 > Proxmox webUI
 > Select the VM
