@@ -15,3 +15,22 @@
 > Stop
 > [PVE shell] pct resize 101 rootfs 20G
 ```
+
+
+#### Integrate TrueNAS
+
+```
+> Proxmox WebUI
+> DataCenter
+> Storage
+> Add
+  > NFS
+    ID: Any-Name
+    Server: TrueNAS IP
+    Export: /path/path-to-path
+    Content: Selete one by one everythings
+    Nodes: 
+    Enable:
+> Add
+    
+```
