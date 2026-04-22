@@ -150,3 +150,23 @@ Else [This will restore to same VM]
 > Second server is syncing and storing same backup from 1st backup server
 > Configuration is too easy to do that
 ```
+
+
+
+
+### Take Proxmox Host Backup to TrueNAS
+
+```
+> Proxmox WebUI
+> Find the TrueNAS backup mounted path on Proxmox server and create a directory
+$ mkdir /mnt/pve/TrueNAS/proxmox-host-backup
+
+> Proxmox all the configuration files are available on below path
+$ ll /etc/pvc
+
+> Take all files backup to TrueNAS directory path
+> Create cronjob for that
+
+$ tar -cvzf /mnt/pve/TrueNAS/proxmox-host-backup/pve-1-$(date +%F).tar.gz /etc/pve
+
+```
