@@ -121,3 +121,23 @@ Retention:
  > Run now 
   
 ```
+
+
+### Restore the Vm
+
+```
+> Proxmox webui
+> Backup server storage path [down of the same page]
+> Backup [other options- Summury, Permission]
+> Restore
+> Choose the Vm
+
+Else
+
+> Proxmox webUI
+> Select the VM
+> Backup
+> Select the backup
+> Restore
+
+```
