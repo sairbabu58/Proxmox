@@ -141,3 +141,12 @@ Else [This will restore to same VM]
 > Restore
 
 ```
+
+### Proxmox Backup server remote sync
+
+```
+> Required 2 Proxmox backup server on different location
+> One server is for taking backup from proxmox
+> Second server is syncing and storing same backup from 1st backup server
+> Configuration is too easy to do that
+```
