@@ -27,7 +27,8 @@ $ apt full-upgrade -y
 
 
 ```
-https://syncbricks.com/how-to-disable-the-proxmox-subscription-nag-warning/
+sed -Ezi.bak "s/(function ?\\(orig_cmd\\) \\{)/\\1\\n\\torig_cmd\\(\\);\\n\\treturn;/g" /usr/share/javascript/proxmox-widget-toolkit/proxmoxlib.js && systemctl restart pveproxy.service
+
 ```
 
 **Upgrade Proxmox from 8.X to 9.X***
@@ -53,3 +54,5 @@ https://syncbricks.com/proxmox-ve-8-to-9-upgrade-guide-debian-bookworm-to-trixie
 ```
 https://soporte.telecu.cloud/kb/en-us/17-proxmox/43-how-to-enable-the-no-subscription-repository-in-proxmox-ve-using-the-cli
 ```
+
+
