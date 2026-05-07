@@ -20,7 +20,7 @@ https://syncbricks.com/how-to-disable-the-proxmox-subscription-nag-warning/
 ```
 $ apt update
 $ apt upgrade
-
+$ apt full-upgrade -y 
 ```
 
 **How to Disable Supscription Warning**
