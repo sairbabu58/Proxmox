@@ -46,3 +46,10 @@ https://syncbricks.com/proxmox-ve-8-to-9-upgrade-guide-debian-bookworm-to-trixie
 -> Update the Ceph storge
 -> Update all the nodes one by one 
 ```
+
+
+
+### PROXMOX 9 No-Subscription repo
+```
+https://soporte.telecu.cloud/kb/en-us/17-proxmox/43-how-to-enable-the-no-subscription-repository-in-proxmox-ve-using-the-cli
+```
