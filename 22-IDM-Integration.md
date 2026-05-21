@@ -22,3 +22,16 @@ User Filter: (&(objectClass=person)(memberOf=cn=infra-admin,cn=groups,cn=account
 Group Filter: (&(objectClass=groupofnames))
 Scope: user and group
 ```
+
+
+**Search Command:**
+
+```
+
+$ ldapsearch -x -LLL -b "cn=infra-admin,cn=groups,cn=accounts,dc=cloud-lab,dc=j2ctechnologies,dc=intern"
+
+$ ldapsearch -x -LLL -D "uid=admin,cn=users,cn=accounts,dc=cloud-lab,dc=j2ctechnologies,dc=intern" -W -b "cn=infra-admin,cn=groups,cn=accounts,dc=cloud-lab,dc=j2ctechnologies,dc=intern" "*"
+
+$ ldapsearch -x -LLL -b "cn=infra-admin,cn=groups,cn=accounts,dc=cloud-lab,dc=j2ctechnologies,dc=intern" cn | grep admin
+$ ldapsearch -x -LLL -b "cn=infra-admin,cn=groups,cn=accounts,dc=cloud-lab,dc=j2ctechnologies,dc=intern" dc | grep admin-group
+```
