@@ -21,7 +21,7 @@ User Casses: person,user
 Group Casses: groupOfNames,posixGroup
 User Filter: (&(objectClass=person)(memberOf=cn=infra-admin,cn=groups,cn=accounts,dc=cloud-lab,dc=j2ctechnologies,dc=intern))
            : memberOf=cn=infra-*
-Group Filter: (&(objectClass=groupofnames))
+Group Filter: (&(objectClass=groupOfNames))
 Scope: user and group
 ```
 
