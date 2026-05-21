@@ -15,3 +15,9 @@ or
 System -> gateway-> configuration ->WAN -> Choose ipv6 -> edit > [disable : check]
 
 ```
+### Issues-03
+#### Google Ping issues
+```
+-> Dont enable LAN Gateway [optional]
+-> Add the LAN Firewall rule:  source: lan net, lan add
+```
