@@ -32,3 +32,21 @@ https://www.youtube.com/watch?v=Cs-QnRl0Qho
   - Apply
 ```
 Note: some times 'what is my ipaddress is not the real Ip addredd. always get to from ISP route details page'
+
+#### interface Assignments
+#### Firewall Rule
+#### NAT Outbount rule 
+
+#### Port-forwarding on ISP Route 
+```
+- Internate
+- PortForwarding
+- Name: Any
+- Device: Devicename
+- Lan IP Address: 192.168.0.97 [your OpnSense WAN IP]
+- protocal: UDP
+- ART: Port
+- WANPort: 51825
+- LanPort: 51825
+- Save/Apply
+```
