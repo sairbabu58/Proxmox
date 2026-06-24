@@ -6,6 +6,7 @@ https://www.youtube.com/watch?v=Cs-QnRl0Qho
 
 ### WireGuardVPN Server Configuration
 
+#### Create Instance
 ```
 -> VPN
   - WireGuard
@@ -18,3 +19,16 @@ https://www.youtube.com/watch?v=Cs-QnRl0Qho
   - Save
   - Apply
 ```
+#### Create Peer Generator
+```
+-> VPN
+  - WireGuard
+  - Peer generator
+  - Instance: [Auto filled] WireGuardVPN
+  - Endpoint: [your internet provider Private IP- get to from ISP route details] 168.52.69.205:51825
+  - Name: Client-1
+  - Rest of details will get auto filled
+  - Enable: [checked]
+  - Apply
+```
+Note: some times 'what is my ipaddress is not the real Ip addredd. always get to from ISP route details page'
